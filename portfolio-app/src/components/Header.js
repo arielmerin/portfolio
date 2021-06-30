@@ -4,16 +4,19 @@ import ButtonLink from "./ButtonLink";
 import breakpoint from "../breakpoints";
 
 
+/**
+ * This sections is the first in-appear in the page,
+ * @mobile: Allows the A merino logo
+ * @desktop lodges the buttons and the logo
+ */
 const HeaderComponent = styled.header`
 	width: 100vw;
 	background-color: #19456B;
 	display: none;
-
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
-
 `
 
 const ButtonsContainer = styled.div`

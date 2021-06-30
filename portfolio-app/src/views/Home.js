@@ -3,9 +3,11 @@ import styled from 'styled-components'
 import Header from "../components/Header";
 import SocialMedia from "../components/SocialMedia";
 
+
 const HomeContainer = styled.div`
 		width: 100vw;
-		height: 100vh;
+		min-height: 100vh;
+		height: 100%;
 		background-color: #19456B;
 		& p{
 		color: white;
@@ -43,5 +45,6 @@ const Home = () =>{
 		<SocialMedia/>
 	</HomeContainer>
 }
+
 
 export default Home;

@@ -1,11 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
+/**
+ * Main container to lodge the main container
+ */
 const SocialMediaContainer = styled.div`
 	display: flex;
 	width: 60vw;
 	justify-content: space-between;
-	margin: 0 auto 1rem ;
+	padding: 3em;
+	margin: 0 auto;
 	background-color: inherit;
 `
 
